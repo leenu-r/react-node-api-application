@@ -1,0 +1,20 @@
+{
+  "name": "react-node-api-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon nasa-images-be/server/index.js ",
+    "client": "npm start --prefix nasa-images-fe",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leenu Rajan",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "concurrently": "^8.1.0"
+  }
+}
